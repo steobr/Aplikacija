@@ -14,7 +14,7 @@ export class AppController {
     return 'Home page!';
   }
 
-  @Get('api/administrator')
+  @Get('api/administnprator')
   getAllAdmins(): Promise<Administrator[]> {
     return this.administratorService.getAll();
   }
